@@ -26,3 +26,21 @@ This repository provides an integration with Square's API for handling recurring
    cd laravel-square-recurring-payments
    composer install
     ```
+## Create .env
+```
+SQUARE_ACCESS_TOKEN=your_token
+SQUARE_ENVIRONMENT=sandbox # production
+# Sqaure Default Values
+SQUARE_LOCATION_ID=your_app_location_id
+SQUARE_CURRENCY=USD
+SQUARE_PLAN_VARIATION_ID=your_plan_variation_id
+SQUARE_WEBHOOK_SECRET=your_webhook_secret_key
+NOTIFICATION_URL=your_registered_webhook_url #i.e route('square.callback') or example https://8d03-39-45-98-253.ngrok-free.app/api/square/callback
+```
+
+## Test
+```
+php artisan test
+```
+
+Check Unit Test files and SquarePaymentController for better understanding!
