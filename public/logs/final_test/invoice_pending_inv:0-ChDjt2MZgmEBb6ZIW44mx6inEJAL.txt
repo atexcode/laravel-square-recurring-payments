@@ -1,0 +1,8 @@
+{
+    "id": "inv:0-ChDjt2MZgmEBb6ZIW44mx6inEJAL",
+    "status": "DRAFT",
+    "amount": 9.99,
+    "currency": "USD",
+    "customer_id": "1D6QVQAXM9M1WCR4A7T7QP73S8",
+    "subscription_id": "6dd62c72-e983-4e3c-8649-cff0d0123916"
+}

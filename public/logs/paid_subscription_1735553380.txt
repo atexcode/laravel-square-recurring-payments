@@ -1,0 +1,29 @@
+{
+    "merchant_id": "ML7PMCA80E5TB",
+    "type": "subscription.created",
+    "event_id": "71e375f4-37df-3247-b6d0-83c7997bd145",
+    "created_at": "2024-12-30T10:09:37.731Z",
+    "data": {
+        "type": "subscription",
+        "id": "bc988bfd-fa14-49f8-b7f3-7dbb6e5562d2",
+        "object": {
+            "subscription": {
+                "created_at": "2024-12-30T10:09:37Z",
+                "customer_id": "1D6QVQAXM9M1WCR4A7T7QP73S8",
+                "id": "bc988bfd-fa14-49f8-b7f3-7dbb6e5562d2",
+                "location_id": "L12VC933ACRZP",
+                "plan_variation_id": "TGMOV2Y7DX2WROD4G5GUSNWV",
+                "source": {
+                    "application_id": "sandbox-sq0idb-i-9FsTa9F-5q7VRc9cFmjA",
+                    "application_name": "Sandbox for sq0idp-bRUjnhD3nTUwZ5u2bXeqoQ",
+                    "name": "Sandbox for sq0idp-bRUjnhD3nTUwZ5u2bXeqoQ"
+                },
+                "start_date": "2024-12-30",
+                "status": "ACTIVE",
+                "tenant": "BUYER",
+                "timezone": "UTC",
+                "version": 1
+            }
+        }
+    }
+}

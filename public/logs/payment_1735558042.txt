@@ -1,0 +1,66 @@
+{
+    "merchant_id": "ML7PMCA80E5TB",
+    "type": "payment.updated",
+    "event_id": "f16d7a79-4fa2-3d30-80da-22d41ce40d1a",
+    "created_at": "2024-12-30T11:27:20.601Z",
+    "data": {
+        "type": "payment",
+        "id": "9QD9yZT60PO591xnO5unLjoV8rQZY",
+        "object": {
+            "payment": {
+                "amount_money": {
+                    "amount": 999,
+                    "currency": "USD"
+                },
+                "application_details": {
+                    "application_id": "sandbox-sq0idb-iKaL0GY_L13b75J0K2qgsw",
+                    "square_product": "OTHER"
+                },
+                "approved_money": {
+                    "amount": 999,
+                    "currency": "USD"
+                },
+                "buyer_email_address": "habbiburrehmasnabdulrehman@gmail.com",
+                "card_details": {
+                    "avs_status": "AVS_ACCEPTED",
+                    "card": {
+                        "bin": "411111",
+                        "card_brand": "VISA",
+                        "card_type": "CREDIT",
+                        "exp_month": 11,
+                        "exp_year": 2043,
+                        "fingerprint": "sq-1-EZ8KqZ_S1g-mxrhoDUShu5h0-_oGCTNJvrP5e4OsUp6vq6RlT8NRmY2YgJK_9cm7TA",
+                        "last_4": "1111",
+                        "prepaid_type": "NOT_PREPAID"
+                    },
+                    "card_payment_timeline": {
+                        "authorized_at": "2024-12-30T11:27:18.779Z",
+                        "captured_at": "2024-12-30T11:27:18.871Z"
+                    },
+                    "cvv_status": "CVV_NOT_CHECKED",
+                    "entry_method": "ON_FILE",
+                    "statement_description": "SQ *DEFAULT TEST ACCOUNT",
+                    "status": "CAPTURED"
+                },
+                "created_at": "2024-12-30T11:27:18.656Z",
+                "customer_id": "1D6QVQAXM9M1WCR4A7T7QP73S8",
+                "delay_action": "CANCEL",
+                "delay_duration": "PT168H",
+                "delayed_until": "2025-01-06T11:27:18.656Z",
+                "id": "9QD9yZT60PO591xnO5unLjoV8rQZY",
+                "location_id": "L12VC933ACRZP",
+                "order_id": "UJVRcEVdBWgJoPyc8yRqHmNDaPRZY",
+                "receipt_number": "9QD9",
+                "receipt_url": "https:\/\/squareupsandbox.com\/receipt\/preview\/9QD9yZT60PO591xnO5unLjoV8rQZY",
+                "source_type": "CARD",
+                "status": "COMPLETED",
+                "total_money": {
+                    "amount": 999,
+                    "currency": "USD"
+                },
+                "updated_at": "2024-12-30T11:27:20.595Z",
+                "version": 2
+            }
+        }
+    }
+}

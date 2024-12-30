@@ -1,0 +1,78 @@
+{
+    "merchant_id": "ML7PMCA80E5TB",
+    "type": "payment.updated",
+    "event_id": "4b05921c-3b27-36fc-ab9b-6ff7934136d0",
+    "created_at": "2024-12-30T10:01:25.922Z",
+    "data": {
+        "type": "payment",
+        "id": "3th29GMQhNikkWilqDEdtGoYxSVZY",
+        "object": {
+            "payment": {
+                "amount_money": {
+                    "amount": 1000,
+                    "currency": "USD"
+                },
+                "application_details": {
+                    "application_id": "sandbox-sq0idb-i-9FsTa9F-5q7VRc9cFmjA",
+                    "square_product": "ECOMMERCE_API"
+                },
+                "approved_money": {
+                    "amount": 1000,
+                    "currency": "USD"
+                },
+                "card_details": {
+                    "avs_status": "AVS_ACCEPTED",
+                    "card": {
+                        "bin": "453275",
+                        "card_brand": "VISA",
+                        "card_type": "CREDIT",
+                        "exp_month": 12,
+                        "exp_year": 2026,
+                        "fingerprint": "sq-1-w7hBghOSIMZJ35itv-lokGTXVKAvDBduB_H3Rr5JUpMzdYbG25yXe9NUFNpXs9QTuQ",
+                        "last_4": "5858",
+                        "prepaid_type": "NOT_PREPAID"
+                    },
+                    "card_payment_timeline": {
+                        "authorized_at": "2024-12-30T10:01:20.811Z",
+                        "captured_at": "2024-12-30T10:01:20.900Z"
+                    },
+                    "cvv_status": "CVV_ACCEPTED",
+                    "entry_method": "KEYED",
+                    "statement_description": "SQ *DEFAULT TEST ACCOUNT",
+                    "status": "CAPTURED"
+                },
+                "created_at": "2024-12-30T10:01:20.689Z",
+                "delay_action": "CANCEL",
+                "delay_duration": "PT168H",
+                "delayed_until": "2025-01-06T10:01:20.689Z",
+                "id": "3th29GMQhNikkWilqDEdtGoYxSVZY",
+                "location_id": "L12VC933ACRZP",
+                "order_id": "yoFNUIf1WLldpi1gLKmz66Qt9tRZY",
+                "processing_fee": [
+                    {
+                        "amount_money": {
+                            "amount": 59,
+                            "currency": "USD"
+                        },
+                        "effective_at": "2024-12-30T12:01:22.000Z",
+                        "type": "INITIAL"
+                    }
+                ],
+                "receipt_number": "3th2",
+                "receipt_url": "https:\/\/squareupsandbox.com\/receipt\/preview\/3th29GMQhNikkWilqDEdtGoYxSVZY",
+                "risk_evaluation": {
+                    "created_at": "2024-12-30T10:01:20.811Z",
+                    "risk_level": "NORMAL"
+                },
+                "source_type": "CARD",
+                "status": "COMPLETED",
+                "total_money": {
+                    "amount": 1000,
+                    "currency": "USD"
+                },
+                "updated_at": "2024-12-30T10:01:22.159Z",
+                "version": 3
+            }
+        }
+    }
+}
