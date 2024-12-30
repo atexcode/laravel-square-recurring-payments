@@ -84,7 +84,7 @@ class SquarePaymentController extends Controller
         
         // replace http to https from route route('square.callback')
         $url = str_replace('http://', 'https://', route('square.callback'));
-        
+
         $signature = $request->header('x-square-hmacsha256-signature');
         $body = $request->getContent();
         $notificationUrl = env('NOTIFICATION_URL', $url);
@@ -167,7 +167,7 @@ class SquarePaymentController extends Controller
         $dataObject = $data['data']['object']['payment'];
 
         $status = $dataObject['status']; // COMPLETED | CANCELED | FAILED
-        $customerId = $dataObject['customer_id'];
+        $customerId = isset($dataObject['customer_id']) ? $dataObject['customer_id'] : null;
         $amount = $dataObject['amount_money']['amount'];
         $currency = $dataObject['amount_money']['currency'];
 
