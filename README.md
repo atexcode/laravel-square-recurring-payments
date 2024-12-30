@@ -9,7 +9,7 @@ This repository provides an integration with Square's API for handling recurring
 - **Create and manage subscriptions**
 - **Process one-time payments**
 - **Cancel subscriptions and payments**
-- **Verify payments**
+- **Callback webhooks**
 
 ## Requirements
 
@@ -22,7 +22,7 @@ This repository provides an integration with Square's API for handling recurring
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/laravel-square-recurring-payments.git
+   git clone https://github.com/atexcode/laravel-square-recurring-payments.git
    cd laravel-square-recurring-payments
    composer install
     ```
