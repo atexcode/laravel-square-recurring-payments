@@ -13,8 +13,8 @@ This repository provides an integration with Square's API for handling recurring
 
 ## Requirements
 
-- Laravel 8.x or above
-- PHP 7.4 or above
+- Laravel 11.x or above
+- PHP 8.2 or above
 - Square API credentials (Access Token, Location ID, Plan Variation ID)
 
 ## Installation
